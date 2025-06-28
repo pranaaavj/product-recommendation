@@ -1,0 +1,35 @@
+{
+  "name": "product-recommendation",
+  "version": "1.0.0",
+  "description": "Product recommendation for e-commerce using tensorflow.js",
+  "keywords": [
+    "recommendation",
+    "product",
+    "e-commerce",
+    "mongodb",
+    "tensorflow",
+    "javascript"
+  ],
+  "homepage": "https://github.com/pranaaavj/product-recommendation#readme",
+  "bugs": {
+    "url": "https://github.com/pranaaavj/product-recommendation/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pranaaavj/product-recommendation.git"
+  },
+  "license": "ISC",
+  "author": "Pranav Jayakumar",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "build": "tsc",
+    "test": "npm run build && node dist/examples/example.js"
+  },
+  "devDependencies": {
+    "typescript": "^5.8.3"
+  },
+  "dependencies": {
+    "@tensorflow/tfjs-node": "4.10.0"
+  }
+}
